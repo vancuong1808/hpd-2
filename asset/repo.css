@@ -375,7 +375,7 @@
     }
     .pic-1 {
         position: absolute;
-        top: 72%;
+        top: 75%;
         left: 50%;
         width: 35%;
         height: 25%;
@@ -386,10 +386,10 @@
     }
     .pic-2 {
         position: absolute;
-        top: 2%;
-        left: 43%;
-        width: 32%;
-        height: 23%;
+        top: 0%;
+        left: 65%;
+        width: 35%;
+        height: 25%;
         border-radius: 10px;
         border: 0px;
         transform: rotateZ(-10deg);
