@@ -303,12 +303,12 @@
     .text-1 {
         position: absolute;
         top: 68%;
-        left: 16%;
+        left: 20%;
         font-family: "Noto Sans Khojki", sans-serif;
         font-weight: 400;
         font-style: normal;
         font-size: 18px;
-        background: linear-gradient(45deg, #ff00cc, #3333ff);
+        background: linear-gradient(45deg, #E72929, #3333ff);
         background-clip: text;
         -webkit-text-fill-color: transparent;
         letter-spacing: 1.5px;
@@ -316,12 +316,12 @@
     .text-2 {
         position: absolute;
         top: 73%;
-        left: 42%;
+        left: 45%;
         font-family: "Noto Sans Khojki", sans-serif;
         font-weight: 400;
         font-style: normal;
         font-size: 20px;
-        background: linear-gradient(45deg, #ff00cc, #3333ff);
+        background: linear-gradient(45deg, #E72929, #3333ff);
         background-clip: text;
         -webkit-text-fill-color: transparent;
         letter-spacing: 2px;
@@ -330,22 +330,21 @@
         font-family: "Noto Sans Khojki", sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 12px;
-        max-width: 350px;
-        background: linear-gradient(45deg, #ff00cc, #3333ff);
+        font-size: 15px;
+        max-width: 330px;
+        /* background: linear-gradient(45deg, #824D74, #E72929); */
+        color: #E72929;
         background-clip: text;
-        -webkit-text-fill-color: transparent;
+        /* -webkit-text-fill-color: transparent; */
         letter-spacing: 0px;
     }
     .text-4 {
-        position: absolute;
-        top: 28%;
         font-family: "Noto Sans Khojki", sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 12px;
-        max-width: 350px;
-        background: linear-gradient(45deg, #3C3633, #747264);
+        font-size: 15px;
+        max-width: 330px;
+        background: linear-gradient(45deg, #ff00cc, #3333ff);
         background-clip: text;
         -webkit-text-fill-color: transparent;
         letter-spacing: 0px;
@@ -359,26 +358,38 @@
         justify-content: center;
         align-items: center;
         background-image: url(bg-6.jpg);
-        background-size: 50% 100%;
+        background-size: 100% 100%;
         background-position: center;
     }
     #music {
         position: absolute;
         top: 90%;
         left: 2%;
-        width: 40%;
+        width: 45%;
         height: 9%;
         border-radius: 30px;
         border: 0px;
         background-color: #f1517d;
         color: white;
+        transition: all 0.2s linear;
+    }
+    #music:hover {
+        position: absolute;
+        top: 89%;
+        left: 2%;
+        width: 50%;
+        height: 6%;
+        border-radius: 30px;
+        border: 0px;
+        background-color: #FFF3C7;
+        color: #D37676;
     }
     .pic-1 {
         position: absolute;
-        top: 75%;
+        top: 65%;
         left: 50%;
-        width: 35%;
-        height: 25%;
+        width: 40%;
+        height: 30%;
         border-radius: 30px;
         border: 0px;
         transform: rotateZ(12deg);
@@ -386,35 +397,35 @@
     }
     .pic-2 {
         position: absolute;
-        top: 0%;
-        left: 65%;
-        width: 35%;
-        height: 25%;
-        border-radius: 10px;
+        top: 4%;
+        left: 43%;
+        width: 40%;
+        height: 30%;
+        border-radius: 30px;
         border: 0px;
-        transform: rotateZ(-10deg);
         z-index: -1;
+        transform: rotateZ(-10deg);
     }
     .pic-3 {
         position: absolute;
-        top: 12%;
-        left: 65%;
-        width: 28%;
-        height: 18%;
+        top: 16%;
+        left: 10%;
+        width: 32%;
+        height: 22%;
         border-radius: 10px;
         border: 0px;
         z-index: -1;
-        transform: rotateZ(10deg);
+        transform: rotateZ(-12deg);
     }
     .icon-1 {
         position: absolute;
         top: 76%;
-        left: 30%;
+        left: 32%;
     }
     .icon-2 {
         position: absolute;
         top: 76%;
-        left: 60%;
+        left: 62%;
         transform: rotateY(180deg);
     }
 }

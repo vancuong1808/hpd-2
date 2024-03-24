@@ -305,7 +305,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
-    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    background: linear-gradient(45deg, #E72929, #3333ff);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 1.5px;
@@ -318,7 +318,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
-    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    background: linear-gradient(45deg, #E72929, #3333ff);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 2px;
@@ -327,18 +327,19 @@ body {
     font-family: "Noto Sans Khojki", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 12px;
+    font-size: 15px;
     max-width: 330px;
-    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    /* background: linear-gradient(45deg, #824D74, #E72929); */
+    color: #E72929;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent; */
     letter-spacing: 0px;
 }
 .text-4 {
     font-family: "Noto Sans Khojki", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 12px;
+    font-size: 15px;
     max-width: 330px;
     background: linear-gradient(45deg, #ff00cc, #3333ff);
     background-clip: text;
@@ -360,19 +361,31 @@ body {
     position: absolute;
     top: 89%;
     left: 2%;
-    width: 52%;
+    width: 50%;
     height: 6%;
     border-radius: 30px;
     border: 0px;
     background-color: #f1517d;
     color: white;
+    transition: all 0.2s linear;
+}
+#music:hover {
+    position: absolute;
+    top: 89%;
+    left: 2%;
+    width: 50%;
+    height: 6%;
+    border-radius: 30px;
+    border: 0px;
+    background-color: #FFF3C7;
+    color: #D37676;
 }
 .pic-1 {
     position: absolute;
-    top: 72%;
-    left: 50%;
-    width: 35%;
-    height: 25%;
+    top: 65%;
+    left: 45%;
+    width: 40%;
+    height: 30%;
     border-radius: 30px;
     border: 0px;
     transform: rotateZ(12deg);
@@ -381,24 +394,24 @@ body {
 .pic-2 {
     position: absolute;
     top: 4%;
-    left: 43%;
-    width: 35%;
-    height: 25%;
-    border-radius: 10px;
+    left: 42%;
+    width: 38%;
+    height: 30%;
+    border-radius: 30px;
     border: 0px;
     z-index: -1;
     transform: rotateZ(-10deg);
 }
 .pic-3 {
     position: absolute;
-    top: 12%;
-    left: 65%;
-    width: 28%;
-    height: 18%;
+    top: 16%;
+    left: 10%;
+    width: 31%;
+    height: 21%;
     border-radius: 10px;
     border: 0px;
     z-index: -1;
-    transform: rotateZ(12deg);
+    transform: rotateZ(-12deg);
 }
 .pic-4 {
     position: absolute;
@@ -420,6 +433,17 @@ body {
     border-radius: 10px;
     border: 0px;
     z-index: 2;
+    transform: rotateZ(12deg);
+}
+.pic-6 {
+    position: absolute;
+    top: 62%;
+    left: 66%;
+    width: 30%;
+    height: 20%;
+    border-radius: 10px;
+    border: 0px;
+    z-index: -1;
     transform: rotateZ(12deg);
 }
 .icon-1 {
