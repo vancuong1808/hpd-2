@@ -300,27 +300,29 @@ body {
 .text-1 {
     position: absolute;
     top: 65%;
-    left: 17%;
+    left: 19%;
     font-family: "Noto Sans Khojki", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
-    background: linear-gradient(45deg, #E72929, #3333ff);
+    /* background: linear-gradient(45deg, #E72929, #3333ff); */
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #E72929;
+    /* -webkit-text-fill-color: transparent; */
     letter-spacing: 1.5px;
 }
 .text-2 {
     position: absolute;
     top: 70%;
-    left: 45%;
+    left: 43%;
     font-family: "Noto Sans Khojki", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
-    background: linear-gradient(45deg, #E72929, #3333ff);
+    /* background: linear-gradient(45deg, #E72929, #3333ff);? */
+    color: #E72929;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent; */
     letter-spacing: 2px;
 }
 .text-3 {
@@ -341,10 +343,11 @@ body {
     font-style: normal;
     font-size: 15px;
     max-width: 330px;
-    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    /* background: linear-gradient(45deg, #ff00cc, #3333ff); */
     background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: 0px;
+    color: #6420AA;
+    /* -webkit-text-fill-color: transparent; */
+    letter-spacing: 0.2px;
 }
 .thiepchuc-3 {
     position: relative;

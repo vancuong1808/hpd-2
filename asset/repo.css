@@ -308,9 +308,10 @@
         font-weight: 400;
         font-style: normal;
         font-size: 18px;
-        background: linear-gradient(45deg, #E72929, #3333ff);
+        /* background: linear-gradient(45deg, #E72929, #3333ff); */
         background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: #E72929;
+        /* -webkit-text-fill-color: transparent; */
         letter-spacing: 1.5px;
     }
     .text-2 {
@@ -320,10 +321,11 @@
         font-family: "Noto Sans Khojki", sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 20px;
-        background: linear-gradient(45deg, #E72929, #3333ff);
+        /* font-size: 20px;
+        background: linear-gradient(45deg, #E72929, #3333ff); */
         background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: #E72929;
+        /* -webkit-text-fill-color: transparent; */
         letter-spacing: 2px;
     }
     .text-3 {
@@ -342,12 +344,13 @@
         font-family: "Noto Sans Khojki", sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 15px;
+        font-size: 16px;
         max-width: 330px;
-        background: linear-gradient(45deg, #ff00cc, #3333ff);
+        /* background: linear-gradient(45deg, #ff00cc, #3333ff); */
         background-clip: text;
-        -webkit-text-fill-color: transparent;
-        letter-spacing: 0px;
+        /* -webkit-text-fill-color: transparent; */
+        color: #6420AA;
+        letter-spacing: 0.2px;
     }
     .thiepchuc-3 {
         position: relative;
@@ -375,10 +378,10 @@
     }
     #music:hover {
         position: absolute;
-        top: 89%;
+        top: 90%;
         left: 2%;
-        width: 50%;
-        height: 6%;
+        width: 45%;
+        height: 9%;
         border-radius: 30px;
         border: 0px;
         background-color: #FFF3C7;
@@ -408,8 +411,8 @@
     }
     .pic-3 {
         position: absolute;
-        top: 16%;
-        left: 10%;
+        top: 12%;
+        left: 9%;
         width: 32%;
         height: 22%;
         border-radius: 10px;
