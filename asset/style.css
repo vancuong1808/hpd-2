@@ -386,6 +386,7 @@ body {
     height: 25%;
     border-radius: 10px;
     border: 0px;
+    z-index: -1;
     transform: rotateZ(-10deg);
 }
 .pic-3 {

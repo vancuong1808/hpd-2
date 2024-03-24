@@ -393,6 +393,7 @@
         border-radius: 10px;
         border: 0px;
         transform: rotateZ(-10deg);
+        z-index: -1;
     }
     .pic-3 {
         position: absolute;
