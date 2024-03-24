@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Noto+Sans+Khojki&family=Roboto:wght@500&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 100vh;
+    /* background-color: #000; */
+}
+.thiepchuc {
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 31%;
+    height: 100%;
+    background-color: #fff;
+    filter: drop-shadow(0 0 5px #524a4a);
+    overflow: hidden;
+}
+.thiepchuc-1 {
+    position: relative;
+    background-image: url(/asset/bg-1.jpg);
+    background-size: 112% 105%;
+    background-position: center;
+
+}
+.balloon-1 {
+    top: 1000px;
+    left: -10px;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+    color: #EE4266;
+    animation: balloon 7.7s linear 0.3s infinite;    
+}
+.balloon-2 {
+    top: 1000px;
+    left: 60px;
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    color: #C5EBAA;
+    animation: balloon 7s linear 0.4s infinite;    
+}
+.balloon-3 {
+    top: 1000px;
+    left: 90px;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    color: #FBA834;
+    animation: balloon 7s linear 0.6s infinite;   
+}
+.balloon-4 {
+    top: 1000px;
+    left: 50px;
+    width: 70px;
+    height: 70px;
+    z-index: 4;
+    color: #9195F6;
+    animation: balloon 7.5s linear 0.5s infinite;   
+}
+.balloon-5 {
+    top: 1000px;
+    left: 130px;
+    width: 160px;
+    height: 160px;
+    z-index: 4;
+    color: #FF8080;
+    animation: balloon 7.4s linear 0.7s infinite;   
+}
+.balloon-6 {
+    top: 1000px;
+    left: 210px;
+    width: 120px;
+    height: 120px;
+    z-index: 3;
+    color: #DC84F3;
+    transform: rotateY(180deg);
+    animation: balloon 7.3s linear 0.7s infinite;   
+}
+.balloon-7 {
+    top: 1000px;
+    left: 180px;
+    width: 80px;
+    height: 80px;
+    z-index: 3;
+    color: #A1EEBD;
+    transform: rotateY(180deg);
+    animation: balloon 6.9s linear 0.7s infinite;   
+}
+.balloon-8 {
+    top: 1000px;
+    left: -40px;
+    width: 130px;
+    height: 130px;
+    z-index: 5;
+    color: #FFC436;
+    animation: balloon 7.1s linear 0.8s infinite;   
+}
+.balloon-9 {
+    top: 1000px;
+    left: 300px;
+    width: 150px;
+    height: 150px;
+    z-index: 5;
+    color: #00A9FF;
+    animation: balloon 7.1s linear 0.8s infinite; 
+}
+.balloon-10 {
+    top: 1000px;
+    left: 220px;
+    width: 70px;
+    height: 70px;
+    z-index: 3;
+    color: #FBECB2;
+    transform: rotateY(180deg);
+    animation: balloon 7.3s linear 0.2s infinite; 
+    
+}
+.balloon-11 {
+    top: 1000px;
+    left: 20px;
+    width: 70px;
+    height: 70px;
+    z-index: 2;
+    color: #B6FFFA;
+    transform: rotateY(180deg);
+    animation: balloon 6.4s linear 0.6s infinite; 
+}
+.balloon-12 {
+    top: 1000px;
+    left: 90px;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+    color: #5B0888;
+    animation: balloon 7.4s linear 0.4s infinite; 
+}
+.balloon-13 {
+    top: 1000px;
+    left: 80px;
+    width: 100px;
+    height: 100px;
+    z-index: 4;
+    color: #F94C10;
+    animation: balloon 7.3s linear 0.8s infinite; 
+}
+.balloon-14 {
+    top: 1000px;;
+    left: 150px;
+    width: 50px;
+    height: 50px;
+    z-index: 3;
+    color: #DFCCFB;
+    animation: balloon 7.1s linear 0.8s infinite; 
+}
+.balloon-15 {
+    top: 1000px;
+    left: 90px;
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+    color: #FFF3DA;
+    animation: balloon 7.2s linear 0.2s infinite; 
+}
+.balloon-16 {
+    top: 1000px;
+    left: 20px;
+    width: 110px;
+    height: 110px;
+    z-index: 3;
+    color: #00A9FF;
+    animation: balloon 7.3s linear 1s infinite; 
+}
+.balloon-17 {
+    top: 1000px;
+    left: 280px;
+    width: 90px;
+    height: 90px;
+    z-index: 3;
+    color: #FFA447;
+    animation: balloon 7.1s linear 0.7s infinite; 
+}
+.balloon-18{
+    top: 1000px;
+    left: 380px;
+    width: 90px;
+    height: 90px;
+    z-index: 3;
+    color: #C8E4B2;
+    animation: balloon 7s linear 0.7s infinite; 
+}
+.balloon-19{
+    top: 1000px;
+    left: 210px;
+    width: 70px;
+    height: 70px;
+    z-index: 3;
+    color: #FFC6AC;
+    animation: balloon 7.1s linear 0.5s infinite; 
+}
+.balloon-20{
+    top: 1000px;
+    left: 140px;
+    width: 70px;
+    height: 70px;
+    z-index: 2;
+    color: #E48586;
+    animation: balloon 7.3s linear 0.6s infinite; 
+}
+.balloon-21{
+    top: 1000px;
+    left: 280px;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+    color: #BA704F;
+    animation: balloon 7.2s linear 0.5s infinite; 
+}
+.balloon-22{
+    top: 1000px;
+    left: 270px;
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+    color: #9BE8D8;
+    animation: balloon 6.8s linear 0.78s infinite; 
+}
+.balloon-23{
+    top: 1000px;
+    left: 370px;
+    width: 120px;
+    height: 120px;
+    z-index: 2;
+    color: #FBD85D;
+    animation: balloon 6.6s linear 0.6s infinite; 
+}
+.balloon-24 {
+    top: 1000px;
+    left: 360px;
+    width: 60px;
+    height: 60px;
+    z-index: 3;
+    color: #FFCF96;
+    animation: balloon 6.4s linear 0.7s infinite; 
+}
+.balloon {
+    position: absolute;
+}
+
+.thiepchuc-2 {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/asset/bg-5.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+}
+#cake {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+.fire {
+    position: absolute;
+}
+.fire-1 {
+    top: 27%;
+    left: 32%;
+    height: 20%;
+    width: 15%;
+    transform: skewX(0deg);
+    transform-origin: bottom;
+    animation: fire 0.5s linear 0s infinite alternate;
+}
+.fire-2 {
+    top: 27%;
+    height: 20%;
+    width: 15%;
+    transform: skewX(0deg);
+    transform-origin: bottom;
+    animation: fire 0.5s linear 0s infinite alternate;
+}
+.fire-3 {
+    top: 27%;
+    left: 53%;
+    height: 20%;
+    width: 15%;
+    transform-origin: bottom;
+    transform: skewX(0deg);
+    animation: fire 0.5s linear 0s infinite alternate;
+}
+.text-1 {
+    position: absolute;
+    top: 65%;
+    left: 17%;
+    font-family: "Noto Sans Khojki", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1.5px;
+}
+.text-2 {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    font-family: "Noto Sans Khojki", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 2px;
+}
+.text-3 {
+    font-family: "Noto Sans Khojki", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    max-width: 330px;
+    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0px;
+}
+.text-4 {
+    font-family: "Noto Sans Khojki", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    max-width: 330px;
+    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0px;
+}
+.thiepchuc-3 {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/asset/bg-6.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+}
+#music {
+    position: absolute;
+    top: 89%;
+    left: 2%;
+    width: 52%;
+    height: 6%;
+    border-radius: 30px;
+    border: 0px;
+    background-color: #f1517d;
+    color: white;
+}
+.pic-1 {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    width: 35%;
+    height: 25%;
+    border-radius: 30px;
+    border: 0px;
+    transform: rotateZ(12deg);
+    z-index: -1;
+}
+.pic-2 {
+    position: absolute;
+    top: 4%;
+    left: 43%;
+    width: 35%;
+    height: 25%;
+    border-radius: 10px;
+    border: 0px;
+    transform: rotateZ(-10deg);
+}
+.pic-3 {
+    position: absolute;
+    top: 12%;
+    left: 65%;
+    width: 28%;
+    height: 18%;
+    border-radius: 10px;
+    border: 0px;
+    z-index: -1;
+    transform: rotateZ(12deg);
+}
+.pic-4 {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    width: 28%;
+    height: 18%;
+    border-radius: 10px;
+    border: 0px;
+    z-index: 2;
+    transform: rotateZ(-12deg);
+}
+.pic-5 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    width: 28%;
+    height: 18%;
+    border-radius: 10px;
+    border: 0px;
+    z-index: 2;
+    transform: rotateZ(12deg);
+}
+.icon-1 {
+    position: absolute;
+    top: 73%;
+    left: 30%;
+}
+.icon-2 {
+    position: absolute;
+    top: 73%;
+    left: 60%;
+    transform: rotateY(180deg);
+}
+.flag-1 {
+    position: absolute;
+    top: 8%;
+    left: -5%;
+    width: 60%;
+    height: 48%;
+    z-index: -1;
+    transform: rotateZ(0deg) rotateY(180deg);
+}
+.flag-2 {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    width: 60%;
+    height: 48%;
+    z-index: -1;
+    transform: rotateZ(0deg);
+}
+#music:hover {
+    cursor: pointer;
+}
+@keyframes balloon {
+    from {
+        top: 1000px
+    }
+    to {
+        top: -1000px;
+    }
+}
+@keyframes fire {
+    from {
+        transform: skewX(-3deg);
+    }
+    to {
+        transform: skewX(3deg);
+    }
+}
